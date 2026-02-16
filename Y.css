@@ -1,0 +1,130 @@
+body {
+
+    margin: 0;
+
+    font-family: 'Georgia', serif;
+
+    background: linear-gradient(to bottom, #000000, #1a1a1a, #2c3e50);
+
+    color: white;
+
+    text-align: center;
+
+}
+
+.game-container {
+
+    max-width: 800px;
+
+    margin: auto;
+
+    padding: 20px;
+
+}
+
+h1 {
+
+    font-size: 28px;
+
+}
+
+.subtitle {
+
+    font-style: italic;
+
+    color: #bbb;
+  }
+
+.level-info {
+
+    margin-top: 10px;
+
+    font-size: 18px;
+
+    color: gold;
+
+}u
+
+.image-box img {
+
+    width: 100%;
+
+    max-height: 320px;
+
+    border-radius: 12px;
+
+    margin-top: 15px;
+
+    box-shadow: 0 0 20px black;
+
+}
+
+.story-box {
+
+    margin: 20px 0;
+
+    font-size: 18px;
+
+    min-height: 80px;
+
+}
+
+.choices button {
+
+    width: 100%;
+
+    padding: 12px;
+
+    margin: 8px 0;
+
+    border: none;
+
+    border-radius: 10px;
+
+    background: darkred;
+
+    color: white;
+
+    font-size: 16px;
+
+    cursor: pointer;
+
+    transition: 0.3s;
+
+}
+
+.choices button:hover {
+
+    background: crimson;
+
+    transform: scale(1.05);
+
+}
+
+.score-box {
+
+    margin-top: 15px;
+
+    font-size: 18px;
+
+    color: lightgreen;
+
+}
+
+.restart {
+  
+  margin-top: 10px;
+
+    padding: 8px 15px;
+
+    border: none;
+
+    border-radius: 8px;
+
+    background: black;
+
+    color: white;
+
+    cursor: pointer;
+
+  }
