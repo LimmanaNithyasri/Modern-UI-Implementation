@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+
+    <title>Chronicles of the Forgotten Civilizations</title>
+
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+
+<div class="game-container">
+
+    <h1>🕯️ Chronicles of the Forgotten Civilizations</h1>
+
+    <p class="subtitle">Uncover secrets hidden across time...</p>
+
+    <div class="level-info">
+
+        Level: <span id="level">1</span> / 20
+
+    </div>
+
+    <div class="image-box">
+
+        <img id="sceneImage" src="">
+
+    </div>
+
+    <div class="story-box">
+
+        <p id="storyText"></p>
+
+    </div>
+
+    <div class="choices">
+
+        <button id="btn1" onclick="chooseOption(0)"></button>
+
+        <button id="btn2" onclick="chooseOption(1)"></button>
+
+    </div>
+
+    <div class="score-box">
+
+        Score: <span id="score">0</span>
+
+    </div>
+
+    <button class="restart" onclick="restartGame()">Restart</button>
+
+</div>
+
+<script src="script.js"></script>
+
+</body>
+
+</html>
